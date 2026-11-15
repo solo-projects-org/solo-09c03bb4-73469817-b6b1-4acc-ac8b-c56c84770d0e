@@ -1,0 +1,13 @@
+.pydeps/
+.pytest_cache/
+__pycache__/
+*.pyc
+.git/
+data/
+*.db
+*.db-wal
+*.db-shm
+tests/
+pytest.ini
+requirements-dev.txt
+README.md

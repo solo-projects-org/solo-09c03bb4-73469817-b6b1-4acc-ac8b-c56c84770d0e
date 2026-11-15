@@ -1,0 +1,13 @@
+# Local isolated dependency install (no root / venv available in this box)
+.pydeps/
+# SQLite databases and WAL files
+data/
+*.db
+*.db-wal
+*.db-shm
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
